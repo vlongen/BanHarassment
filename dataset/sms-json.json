@@ -1,0 +1,41 @@
+{
+	"name": "防骚扰屏蔽-短信",
+	"data": [
+		{
+			"name": "广告营销-测试",
+			"description": "",
+			"role": "",
+			"signature": "",
+			"binding": "",
+			"register": "",
+			"resetting": ""
+		},
+		{
+			"name": "白名单号码-测试",
+			"description": "",
+			"role": "",
+			"signature": "",
+			"binding": "",
+			"register": "",
+			"resetting": ""
+		},
+		{
+			"name": "黑名单号码-测试",
+			"description": "",
+			"role": "",
+			"signature": "",
+			"binding": "",
+			"register": "",
+			"resetting": ""
+		},
+		{
+			"name": "催收短信-测试",
+			"description": "",
+			"role": "",
+			"signature": "",
+			"binding": "",
+			"register": "",
+			"resetting": ""
+		}
+	]
+}
