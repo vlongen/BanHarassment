@@ -3,11 +3,17 @@
   "description": "",
   "role": "",
   "data": [
-    {
-      "name": "特殊服务号段-测试",
-      "description": "",
-      "role": "",
-      "prefix": ""
-    }
+    {"name": "400特服号", "description": "400开头的10位特服号码", "role": "ban", "prefix": "400"},
+    {"name": "950特服号", "description": "95开头的8位特服号码", "role": "ban", "prefix": "950"},
+    {"name": "951特服号", "description": "95开头的8位特服号码", "role": "ban", "prefix": "951"},
+    {"name": "952特服号", "description": "95开头的8位特服号码", "role": "ban", "prefix": "952"},
+    {"name": "953特服号", "description": "95开头的8位特服号码", "role": "ban", "prefix": "953"},
+    {"name": "954特服号", "description": "95开头的8位特服号码", "role": "ban", "prefix": "954"},
+    {"name": "955特服号", "description": "95开头的8位特服号码", "role": "ban", "prefix": "955"},
+    {"name": "956特服号", "description": "95开头的8位特服号码", "role": "ban", "prefix": "956"},
+    {"name": "957特服号", "description": "95开头的8位特服号码", "role": "ban", "prefix": "957"},
+    {"name": "958特服号", "description": "95开头的8位特服号码", "role": "ban", "prefix": "958"},
+    {"name": "959特服号", "description": "95开头的8位特服号码", "role": "ban", "prefix": "959"},
+    {"name": "001国际号", "description": "00开头的国际号码", "role": "ban", "prefix": "400"}
   ]
 }

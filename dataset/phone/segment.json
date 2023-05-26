@@ -3,11 +3,32 @@
   "description": "",
   "role": "",
   "data": [
-    {
-      "name": "移动电话号段-测试",
-      "description": "",
-      "role": "",
-      "prefix": ""
-    }
+    {"name": "虚拟运营商:联通", "description": "", "role": "", "prefix": "132"},
+    {"name": "运营商:电信", "description": "2019年度高频骚扰号段③:电信", "role": "", "prefix": "133"},
+    {"name": "卫星电话:电信", "description": "", "role": "", "prefix": "134"},
+    {"name": "运营商:联通", "description": "新号段:联通", "role": "", "prefix": "140"},
+    {"name": "物联网卡:联通", "description": "", "role": "", "prefix": "145"},
+    {"name": "物联网卡:移动", "description": "", "role": "", "prefix": "147"},
+    {"name": "运营商:电信", "description": "2019年度高频骚扰号段⑧:电信", "role": "", "prefix": "153"},
+    {"name": "虚拟运营商:电信", "description": "", "role": "", "prefix": "162"},
+    {"name": "虚拟运营商:移动", "description": "", "role": "", "prefix": "165"},
+    {"name": "虚拟运营商:联通", "description": "", "role": "", "prefix": "167"},
+    {"name": "虚拟运营商:联通、移动、电信", "description": "", "role": "", "prefix": "170"},
+    {"name": "虚拟运营商:联通", "description": "", "role": "", "prefix": "171"},
+    {"name": "虚拟运营商:移动", "description": "", "role": "", "prefix": "172"},
+    {"name": "未启用", "description": "", "role": "", "prefix": "173"},
+    {"name": "未启用", "description": "", "role": "", "prefix": "174"},
+    {"name": "未启用", "description": "", "role": "", "prefix": "175"},
+    {"name": "未启用", "description": "", "role": "", "prefix": "176"},
+    {"name": "单4G卡:电信", "description": "", "role": "", "prefix": "177"},
+    {"name": "单4G卡:联通", "description": "", "role": "", "prefix": "178"},
+    {"name": "未启用", "description": "", "role": "", "prefix": "179"},
+    {"name": "运营商:电信", "description": "2019年度高频骚扰号段⑥:电信", "role": "", "prefix": "180"},
+    {"name": "运营商:电信", "description": "2019年度高频骚扰号段⑦:电信", "role": "", "prefix": "181"},
+    {"name": "运营商:联通", "description": "2019年度高频骚扰号段⑩:联通", "role": "", "prefix": "186"},
+    {"name": "单3G卡:移动", "description": "", "role": "", "prefix": "188"},
+    {"name": "运营商:电信", "description": "2019年度高频骚扰号段⑤:电信", "role": "", "prefix": "189"},
+    {"name": "中国广电", "description": "2019年度高频骚扰号段⑤:电信", "role": "", "prefix": "192"},
+    {"name": "运营商:移动", "description": "2020年度实测骚扰号段①:移动", "role": "", "prefix": "195"}
   ]
 }
