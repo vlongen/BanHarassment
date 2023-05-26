@@ -1,11 +1,11 @@
 {
   "name": "ban-harassment",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "type": "module",
   "description": "BanHarassment SMS & Phone Number",
   "main": "index.js",
   "scripts": {
-    "build": "npm run gulp build",
+    "build": "node update-version.js && npm run gulp build && ./push.sh",
     "radicale": "npm run gulp radicale",
     "gulp": "gulp --gulpfile src/gulpfile.js --cwd ./",
     "test": "npx ava src/test.js"
@@ -31,5 +31,6 @@
     "gulp-merge-json": "^2.1.2",
     "gulp-rename": "^2.0.0",
     "gulp-zip": "^5.1.0"
-  }
+  },
+  "buildTime": "2023/05/27 00:51:01"
 }
