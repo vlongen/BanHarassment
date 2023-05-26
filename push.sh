@@ -18,7 +18,7 @@ if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then             # 如果用户输�
   git commit -F "$temp_file"                                  # 使用 -F 选项提交多行注释
   rm -f "$temp_file"                                          # 删除临时文件
   echo -e "将本地仓库的修改推送到\`main\`远程分支..."
-  git push -u origin main                                     # 推送到 Beta 分支
+  git push -u origin main                                   # 推送到 main 分支
 else
   echo -e "未进行代码提交"
 fi
