@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/opt/homebrew/bin/bash
 # 当执行 `npm run build` 时将自动运行此脚本
 
 IFS=$'\n'
