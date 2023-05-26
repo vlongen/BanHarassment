@@ -12,15 +12,15 @@ if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then             # 如果用户输�
   commit_message="${input_text//\\n/$'\n'}"                   # 将字符串替换为实际换行符
   temp_file=$(mktemp)                                         # 创建一个临时文件来存储提交消息
   echo "$commit_message" > "$temp_file"                       # 将多行提交消息写入临时文件
-  echo -e "\e[36m将修改的文件添加到Git暂存区...\e[0m"
+  echo -e "将修改的文件添加到Git暂存区..."
   git add .                                                   # 将修改的文件添加到Git暂存区
-  echo -e "\e[36m将暂存区内容添加到本地仓库中...\e[0m"
+  echo -e "将暂存区内容添加到本地仓库中...m"
   git commit -F "$temp_file"                                  # 使用 -F 选项提交多行注释
   rm -f "$temp_file"                                          # 删除临时文件
-  echo -e "\e[36m将本地仓库的修改推送到\`main\`远程分支...\e[0m"
+  echo -e "将本地仓库的修改推送到\`main\`远程分支..."
   git push -u origin main                                     # 推送到 Beta 分支
 else
-  echo -e "\e[31m未进行代码提交\e[0m"
+  echo -e "未进行代码提交"
 fi
 
-echo -e "\e[32m脚本完成\e[0m"
+echo -e "脚本完成"
