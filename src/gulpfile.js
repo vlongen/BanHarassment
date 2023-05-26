@@ -83,7 +83,7 @@ const generatorPhone = () => {
       data = data.filter(item => item !== '');
       return new Buffer(JSON.stringify(data));
     }))
-    .pipe(gulp.dest('./dataset'))
+    .pipe(gulp.dest('./dist'))
 }
 const generatorSMS = () => {
   return gulp.src('dataset/sms/*.json')
@@ -105,7 +105,7 @@ const generatorSMS = () => {
       data = data.filter(item => item !== '');
       return new Buffer(JSON.stringify(data));
     }))
-    .pipe(gulp.dest('./dataset'))
+    .pipe(gulp.dest('./dist'))
 }
 
 const build = gulp.series(
