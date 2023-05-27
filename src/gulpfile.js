@@ -94,7 +94,7 @@ const generatorSMS = () => {
       dataArray.forEach((item, index)=>{
         item.data.forEach((itemData, indexData)=>{
           data.push(...Array.from(new Set([
-            itemData['signature'],
+            // itemData['signature'], // 签名信息
             itemData['binding'],
             itemData['register'],
             itemData['resetting'],
