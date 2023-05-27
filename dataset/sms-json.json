@@ -4,6 +4,7 @@
 		{
 			"name": "广告营销-测试",
 			"description": "",
+			"platform": "",
 			"role": "",
 			"signature": "",
 			"binding": "",
@@ -16,6 +17,7 @@
 		{
 			"name": "白名单号码-测试",
 			"description": "",
+			"platform": "",
 			"role": "",
 			"signature": "",
 			"binding": "",
@@ -28,6 +30,7 @@
 		{
 			"name": "黑名单号码-测试",
 			"description": "",
+			"platform": "",
 			"role": "",
 			"signature": "",
 			"binding": "",
@@ -40,6 +43,7 @@
 		{
 			"name": "催收-普惠金融",
 			"description": "广东速信科技有限公司提供服务",
+			"platform": "广东速信科技有限公司",
 			"role": "block",
 			"signature": "普惠金融",
 			"binding": "",
