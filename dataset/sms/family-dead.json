@@ -4,13 +4,15 @@
   "role": "",
   "data": [
     {
-      "name": "催收短信-测试",
+      "name": "普惠金融催收短信",
       "description": "",
-      "role": "",
-      "signature": "",
+      "role": "block",
+      "signature": "普惠金融",
       "binding": "",
       "register": "",
-      "resetting": ""
+      "resetting": "",
+      "universally": "",
+      "example": ""
     }
   ]
 }

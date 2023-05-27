@@ -98,6 +98,8 @@ const generatorSMS = () => {
             itemData['binding'],
             itemData['register'],
             itemData['resetting'],
+            itemData['universally'],
+            itemData['example'],
           ])))
         })
       })
