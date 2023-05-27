@@ -100,6 +100,7 @@ const generatorSMS = () => {
             itemData['resetting'],
             itemData['universally'],
             itemData['example'],
+            itemData['exampleContent'],
           ])))
         })
       })

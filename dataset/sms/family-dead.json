@@ -4,15 +4,16 @@
   "role": "",
   "data": [
     {
-      "name": "普惠金融催收短信",
-      "description": "",
+      "name": "催收-普惠金融",
+      "description": "广东速信科技有限公司提供服务",
       "role": "block",
       "signature": "普惠金融",
       "binding": "",
       "register": "",
       "resetting": "",
       "universally": "10685637",
-      "example": "10685637642290254136"
+      "example": "10685637642290254136",
+      "exampleContent": "【普惠金融】[YourFullName]逾期欠款可减免归还本金结清,不回复\"本金\"视永久放弃减免名额，详情：020-61916924"
     }
   ]
 }
