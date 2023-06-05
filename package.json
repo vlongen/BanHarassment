@@ -1,6 +1,6 @@
 {
   "name": "ban-harassment",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "type": "module",
   "description": "BanHarassment SMS & Phone Number",
   "main": "index.js",
@@ -32,5 +32,5 @@
     "gulp-rename": "^2.0.0",
     "gulp-zip": "^5.1.0"
   },
-  "buildTime": "2023/05/29 12:18:57"
+  "buildTime": "2023/06/05 10:57:08"
 }
